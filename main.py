@@ -24,9 +24,9 @@ st.header("Tweet Generator - Masu KasimAli")
 st.subheader("🚀 Generate tweets using Generative AI")
 
 # Inputs
-topic = st.text_input("Topic")
+language = st.selectbox("Language", ["English", "Spanish", "French", "German", "Arabic", "Hindi", "urdu"])
 number = st.number_input("Number of tweets", min_value=1, max_value=10, value=1, step=1)
-language = st.selectbox("Language", ["English", "Spanish", "French", "German", "Arabic", "Hindi","urdu","Gujrati"])
+topic = st.text_input("Topic")
 
 # Generate tweets on button click
 if st.button("Generate"):
