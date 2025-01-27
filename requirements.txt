@@ -2,4 +2,6 @@ langchain
 langchain-openai
 langchain-google-genai
 streamlit
-
+load_dotenv
+langchain_community
+langchain_together
