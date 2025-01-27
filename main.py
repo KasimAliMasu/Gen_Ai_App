@@ -44,7 +44,7 @@ topic = st.text_input("Topic")
 number = st.number_input("Number of tweets", min_value=1, max_value=10, value=1, step=1)
 
 # Dropdown for selecting language
-language = st.selectbox("Select language for tweets", ["English", "Spanish", "French", "German", "Hindi", "gujarati"], index=0)
+language = st.selectbox("Select language for tweets", ["English", "Spanish", "French", "German", "Hindi", "Gujarati"], index=0)
 
 # Dropdown for selecting AI model
 selected_ai = st.selectbox("Select the AI model", list(ai_models.keys()))
